@@ -1,0 +1,153 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+/*START HEADER*/
+
+header {
+    width: 100%;
+    display: flex;
+    background-color: #f4acb7;
+
+}
+
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 3%;
+    width: 100%;
+    height: 100%;
+    position: sticky;
+
+}
+nav a {
+    text-decoration: none;
+    color: #9d8189;
+    padding: 0% 2% 0% 8%;
+}
+nav input {
+    display: none;
+}
+nav label {
+    display: none;
+}
+
+
+
+.container-title-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    text-align: center;
+
+}
+.container-title-nav img {
+    margin: 0% 10%;
+    width: 25%;
+    height: 25%;
+}
+.container-title-nav h1{
+    color: antiquewhite;
+    font-size: 2em;
+    display: inline-block;
+
+}
+
+
+
+
+
+.contenedor-menu {
+    height: 100%;
+    width: 100%;
+    margin: 0% 8% 0% 5%;
+    padding-left: 5%;
+}
+.contenedor-menu ul {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+.contenedor-menu li {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    text-align: center;
+    height: 100%;
+    line-height: 80%;
+    margin: 0% 3% 0% 3%;
+    font-size: 0.8em;
+}
+.contenedor-menu a{ 
+    color: #ffffff;
+    padding: 10%;
+    font-size: 1em;
+
+}
+.contenedor-menu a:hover {
+    color: #9d8189;
+}
+
+
+
+
+.cont-redes-nav {
+    height: 100%;
+    margin: 0% 8% 0% 5%;
+    display: flex;
+    flex-direction: row;
+}
+.cont-redes-nav a {
+    margin: 2%;
+    padding: 15%;
+    color: #ffffff;
+    border-radius: 50%;
+
+}
+.cont-redes-nav a:hover {
+    color: #ffffff;
+    background-color: #9d8189;
+    transform: scale(1.2);
+}
+
+
+/*MEDIA QUERYS*/
+
+@media (max-width: 750px){
+    input{
+        display: flex;
+    }
+    label {
+        display: flex;
+    }
+    .container-title-nav h1 {
+        display: none;
+    }
+    .container-title-nav img {
+        width: 70%;
+    }
+
+}
+
+
+
+/*END HEADER*/
+
+
+
+
+
+/*START MAIN*/
+
